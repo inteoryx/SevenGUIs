@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import Counter from './components/Counter';
+import TemperatureConverter from './components/TemperatureConverter';
+import Booker from './components/Booker';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div></div>
+      <div className="gui">
+        <Counter />
+      </div>
+      <div className="gui">
+        <TemperatureConverter />
+      </div>
+      <div className="gui">
+        <Booker />
+      </div>
+      <div className="gui">
+        <Timer />
+      </div>
+      <div className="gui"></div>
+      <div className="gui"></div>
+      <div className="gui"></div>
+      <div></div>
     </div>
   );
 }
