@@ -1,0 +1,44 @@
+.timer {
+    background-color: rgb(150, 150, 150);
+    display: flex;
+    flex-direction: column;
+
+    height: 50%;
+    width: 50%;
+}
+
+.timerHeader {
+    text-align: center;
+    font-size: 200%;
+}
+
+.timerBody {
+    background-color: rgb(120, 120, 120);
+    flex-grow: 1;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5%;
+}
+
+.timerBodyRow {
+    flex-grow: 1;
+    display: flex;
+    
+    width: 90%;
+
+    flex-direction: row;
+    
+}
+
+.timerResetButton {
+    margin: none;
+    padding: none;
+    box-sizing: border-box;
+
+    width: 100%;
+
+    font-size: 115%;
+    border-radius: 5px;
+}

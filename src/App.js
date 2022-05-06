@@ -2,6 +2,7 @@ import './App.css';
 import Counter from './components/Counter';
 import TemperatureConverter from './components/TemperatureConverter';
 import Booker from './components/Booker';
+import Timer from './components/Timer';
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
         <Booker />
       </div>
       <div className="gui">
+        <div className="exposition" />
         <Timer />
+        <div className="exposition">I know the "stop" behavior is not defined.  I just thought it would improve the timer.</div>
       </div>
       <div className="gui"></div>
       <div className="gui"></div>
