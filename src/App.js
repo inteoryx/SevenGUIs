@@ -3,6 +3,7 @@ import Counter from './components/Counter';
 import TemperatureConverter from './components/TemperatureConverter';
 import Booker from './components/Booker';
 import Timer from './components/Timer';
+import Crud from './components/Crud';
 
 function App() {
   return (
@@ -22,7 +23,9 @@ function App() {
         <Timer />
         <div className="exposition">I know the "stop" behavior is not defined.  I just thought it would improve the timer.</div>
       </div>
-      <div className="gui"></div>
+      <div className="gui">
+        <Crud />
+      </div>
       <div className="gui"></div>
       <div className="gui"></div>
       <div></div>

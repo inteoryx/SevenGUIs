@@ -1,0 +1,76 @@
+.crud {
+    background-color: rgb(120, 120, 120);
+    border: solid 5px black;
+    height: 80%;
+    width: 80%;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.crudHeader {
+    text-align: center;
+    font-size: 200%;
+    font-weight: bold;
+}
+
+.crudBody {
+    background-color: rgb(150, 150, 150);
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+    font-size: 20px;
+
+    align-items: center;
+}
+
+.crudBodyRow {
+    flex-grow: 1;
+    width: 90%;
+
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+}
+
+.crudColumn{
+    flex-grow: 1;
+    
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.crudListBox {
+    width: 250px;
+    max-width: 100%;
+
+    height: 100px;
+    max-height: 100%;
+}
+
+.crudLabel {
+    height: 30px;
+    max-height: 100%;
+
+    width: 125px;
+    max-width: 80%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.crudInput {
+    height: 30px;
+    max-height: 100%;
+}
+
+.crudListBox {
+    overflow-y: auto;
+}
+
+.crudOption {
+    width: 100%;
+}
