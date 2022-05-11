@@ -4,6 +4,7 @@ import TemperatureConverter from './components/TemperatureConverter';
 import Booker from './components/Booker';
 import Timer from './components/Timer';
 import Crud from './components/Crud';
+import Circles from './components/Circles';
 
 function App() {
   return (
@@ -26,7 +27,9 @@ function App() {
       <div className="gui">
         <Crud />
       </div>
-      <div className="gui"></div>
+      <div className="gui">
+        <Circles />
+      </div>
       <div className="gui"></div>
       <div></div>
     </div>
